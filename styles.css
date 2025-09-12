@@ -173,3 +173,40 @@ body {
     animation: fly3 15s linear infinite;
     animation-delay: 10s;
 }
+
+/* ===== NEW WARM CONTAINER STYLE ===== */
+.about-container {
+    text-align: center;
+}
+
+.warm-section {
+    background-color: #FFF5E0;
+    /* A warm, light yellow */
+    border-radius: 15px;
+    /* Rounded corners */
+    padding: 2rem;
+    margin: 2rem 0;
+    /* Space between sections */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    /* Soft shadow for depth */
+    border-left: 5px solid #F9A826;
+    /* A warm orange accent stripe */
+}
+
+/* Brown color for headings */
+.warm-section h1,
+.warm-section h2,
+.warm-section h3 {
+    color: #8B4513;
+    /* Warm brown */
+    margin-bottom: 1.5rem;
+}
+
+/* House Rules image styling */
+.house-rules-image {
+    width: 100%;
+    max-width: 500px;
+    /* Control the size here */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
