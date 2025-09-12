@@ -1,0 +1,18 @@
+/* Custom Navbar Color */
+.custom-navbar {
+    background-color: #F9A826 !important;
+    /* Your bee yellow */
+}
+
+/* Hero Section Styling */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
