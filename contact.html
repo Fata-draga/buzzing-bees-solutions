@@ -80,22 +80,23 @@
                 <div class="col-md-6">
                     <div class="warm-section h-100">
                         <h3>📧 Send Us a Message</h3>
-                        <form>
+                        <form action="https://formspree.io/f/myzdqevp" method="POST">
                             <div class="mb-3">
                                 <label for="name" class="form-label">Your Name *</label>
-                                <input type="text" class="form-control" id="name" required>
+                                <input type="text" class="form-control" id="name" name="name" required> 
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email Address *</label>
-                                <input type="email" class="form-control" id="email" required>
+                                <input type="email" class="form-control" id="email" name="email" required> 
                             </div>
                             <div class="mb-3">
                                 <label for="phone" class="form-label">Phone Number</label>
-                                <input type="tel" class="form-control" id="phone">
+                                <input type="tel" class="form-control" id="phone" name="phone"> 
                             </div>
                             <div class="mb-3">
                                 <label for="message" class="form-label">Message *</label>
-                                <textarea class="form-control" id="message" rows="4" required></textarea>
+                                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                                <!-- Added name="message" -->
                             </div>
                             <button type="submit" class="btn btn-warning btn-lg w-100">Send Message</button>
                         </form>

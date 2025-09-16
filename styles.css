@@ -1,7 +1,7 @@
 /* Custom Navbar Color */
 .custom-navbar {
     background-color: rgb(231, 206, 123)!important;
-    /* Your bee yellow */
+    /*  bee yellow */
 }
 
 .hero-section {
@@ -40,7 +40,7 @@ body {
 /* Hero Section Styling - Warm Yellow with Left Image */
 .hero-section {
     background-color: rgb(245, 233, 186);;
-    /* Your warm bee */
+    /* warm bee */
     padding: 60px 0;
     display: flex;
     align-items: center;
@@ -70,7 +70,6 @@ body {
     max-width: 100%;
     height: auto;
     max-height: 400px;
-    /* Controls how large the image can get */
     border-radius: 10px;
     /* Optional: adds slightly rounded corners */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -86,7 +85,7 @@ body {
 .bee {
     position: absolute;
     width: 30px;
-    /* Size of your bee */
+    /* Size of  bee */
     height: 30px;
     background-image: url('assets/bee-favicon.png');
     background-size: contain;
@@ -206,7 +205,6 @@ body {
 .house-rules-image {
     width: 100%;
     max-width: 500px;
-    /* Control the size here */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
