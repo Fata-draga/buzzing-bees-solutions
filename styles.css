@@ -91,9 +91,9 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 100;
-    /* Makes sure bees fly over the content */
+    /*  bees fly over the content */
     pointer-events: none;
-    /* So you can click through them */
+    /* can click through them */
 }
 
 /* Animation for Bee 1 */
@@ -115,7 +115,7 @@ body {
 
 .bee1 {
     animation: fly1 20s linear infinite;
-    animation-delay: 0s;
+    animation-delay: 2s;
 }
 
 /* Animation for Bee 2 */
